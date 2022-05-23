@@ -2,17 +2,12 @@ import React, { useState } from "react";
 import Results from "./Results";
 import Button from "react-bootstrap/Button";
 
-const authSecret = `${process.env.REACT_APP_OPEN_AI_SECRET}`;
-
 
 const InputSection = () => {
   const [input, setInput] = useState("");
   const [resultsList, setResultsList] = useState([]);
 
   const performAPICall = async (data) => {
-
-    let authParameter = 'Bearer ' + authSecret.slice(1, -2);
-    console.log("performAPICall fired()..." + authParameter);
 
     let json = "";
     try {
@@ -22,7 +17,7 @@ const InputSection = () => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: authParameter,
+            Authorization: `Bearer ${process.env.REACT_APP_OPEN_AI_SECRET}`,
           },
           body: JSON.stringify(data),
         }
