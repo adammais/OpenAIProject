@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/open-ai-project/static/css/main.38be36b0.css",
-    "main.js": "/open-ai-project/static/js/main.bb833bd4.js",
-    "static/js/787.75f46ce7.chunk.js": "/open-ai-project/static/js/787.75f46ce7.chunk.js",
-    "index.html": "/open-ai-project/index.html",
-    "main.38be36b0.css.map": "/open-ai-project/static/css/main.38be36b0.css.map",
-    "main.bb833bd4.js.map": "/open-ai-project/static/js/main.bb833bd4.js.map",
-    "787.75f46ce7.chunk.js.map": "/open-ai-project/static/js/787.75f46ce7.chunk.js.map"
+    "main.css": "/OpenAIProject/static/css/main.38be36b0.css",
+    "main.js": "/OpenAIProject/static/js/main.f71a379a.js",
+    "static/js/787.75f46ce7.chunk.js": "/OpenAIProject/static/js/787.75f46ce7.chunk.js",
+    "index.html": "/OpenAIProject/index.html",
+    "main.38be36b0.css.map": "/OpenAIProject/static/css/main.38be36b0.css.map",
+    "main.f71a379a.js.map": "/OpenAIProject/static/js/main.f71a379a.js.map",
+    "787.75f46ce7.chunk.js.map": "/OpenAIProject/static/js/787.75f46ce7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38be36b0.css",
-    "static/js/main.bb833bd4.js"
+    "static/js/main.f71a379a.js"
   ]
 }
