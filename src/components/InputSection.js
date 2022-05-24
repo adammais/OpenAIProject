@@ -22,7 +22,7 @@ const InputSection = () => {
           body: JSON.stringify(data),
         }
       );
-      if (response.status == 200) {
+      if (response.status === 200) {
         json = await response.json();
         console.log(json);
         return json;
