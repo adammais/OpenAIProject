@@ -23,9 +23,9 @@ jobs:
 
       - name: Print Secret
         env:
-          REACT_APP_OPEN_AI_SECRET_PARAM: ${{ secrets.REACT_APP_OPEN_AI_SECRET }}
+          REACT_APP_OPEN_AI_SECRET_PARAM: '${{ secrets.REACT_APP_OPEN_AI_SECRET }}'
         run: |
-          echo REACT_APP_OPEN_AI_SECRET_PARAM
+          echo "${REACT_APP_OPEN_AI_SECRET_PARAM}"
     
       - name: Set API SECRET
         env:           
