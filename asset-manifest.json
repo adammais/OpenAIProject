@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OpenAIProject/static/css/main.38be36b0.css",
-    "main.js": "/OpenAIProject/static/js/main.2575de61.js",
+    "main.js": "/OpenAIProject/static/js/main.aed88109.js",
     "static/js/787.75f46ce7.chunk.js": "/OpenAIProject/static/js/787.75f46ce7.chunk.js",
     "index.html": "/OpenAIProject/index.html",
     "main.38be36b0.css.map": "/OpenAIProject/static/css/main.38be36b0.css.map",
-    "main.2575de61.js.map": "/OpenAIProject/static/js/main.2575de61.js.map",
+    "main.aed88109.js.map": "/OpenAIProject/static/js/main.aed88109.js.map",
     "787.75f46ce7.chunk.js.map": "/OpenAIProject/static/js/787.75f46ce7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38be36b0.css",
-    "static/js/main.2575de61.js"
+    "static/js/main.aed88109.js"
   ]
 }
