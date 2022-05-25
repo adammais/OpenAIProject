@@ -17,7 +17,7 @@ jobs:
 
       - name: Print TEST ENV VARIABLE
         run: |
-          echo "${{ env.TEST_ENV_VARIABLE }}
+          echo "${{ env.TEST_ENV_VARIABLE }}"
     
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
