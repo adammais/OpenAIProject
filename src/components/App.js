@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <Container>
-      <h1>Fun with AI v3</h1>
+      <h1>Fun with AI v4</h1>
       <InputSection />
     </Container>
   );
