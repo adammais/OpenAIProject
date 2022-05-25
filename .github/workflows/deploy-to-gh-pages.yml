@@ -19,10 +19,14 @@ jobs:
         run: |
           echo "${{ env.REACT_APP_TEST_ENV_VARIABLE }}"
 
-       - name: Set API SECRET
+      - name: Set API SECRET
         run: |
           echo "REACT_APP_OPEN_AI_SECRET=${{ secrets.REACT_APP_OPEN_AI_SECRET }}" >> $GITHUB_ENV
     
+      - name: Print API SECRET
+        run: |
+          echo "${{ env.REACT_APP_OPEN_AI_SECRET }}"
+
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
