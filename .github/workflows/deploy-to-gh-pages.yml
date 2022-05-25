@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - master
+
+permissions: 
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,19 +22,9 @@ jobs:
         env:
           REACT_APP_OPEN_AI_SECRET: ${{ secrets.REACT_APP_OPEN_AI_SECRET }}
 
-      - name: Deploy 🚀
-        run: |
-          npm install
-          unset CI
-          npm run-script deploy
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          folder: build
-
       - name: DeployJI 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+#          token: ${{ secrets.GITHUB_TOKEN }}  #implied if not specified.
           branch: gh-pages
           folder: build
