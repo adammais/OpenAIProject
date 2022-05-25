@@ -17,7 +17,7 @@ const InputSection = () => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${process.env.REACT_APP_OPEN_AI_SECRET}`,
+            Authorization: `Bearer sk-nd${process.env.REACT_APP_OPEN_AI_SECRET}`,
           },
           body: JSON.stringify(data),
         }
