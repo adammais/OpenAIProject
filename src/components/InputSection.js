@@ -29,9 +29,7 @@ const InputSection = () => {
       } else {
         json = await response.json();
         console.log(json);
-        // Format Div Error Element with Bootstrap.
-        console.log(`TEST_ENV_VARIABLE [${process.env.REACT_APP_TEST_ENV_VARIABLE}]`);
-        console.log(`REACT_APP_OPEN_AI_SECRET [${process.env.REACT_APP_OPEN_AI_SECRET}]`);
+        // Format Div Error Element with Bootstrap.   
         alert("Call to OpenAI has failed");
       }
     } catch (error) {
