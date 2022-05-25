@@ -21,11 +21,11 @@ jobs:
 
       - name: Print Secret
         run: |
-          echo ${{ secret.REACT_APP_OPEN_AI_SECRET }}
+          echo ${{ secrets.REACT_APP_OPEN_AI_SECRET }}
     
       - name: Set API SECRET
         env:           
-          REACT_APP_OPEN_AI_SECRET_PARAM: ${{ secret.REACT_APP_OPEN_AI_SECRET }}
+          REACT_APP_OPEN_AI_SECRET_PARAM: ${{ secrets.REACT_APP_OPEN_AI_SECRET }}
         run: |
           echo "REACT_APP_OPEN_AI_SECRET=${REACT_APP_OPEN_AI_SECRET_PARAM}" >> $GITHUB_ENV
     
