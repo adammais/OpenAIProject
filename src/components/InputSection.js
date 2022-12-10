@@ -29,7 +29,7 @@ const InputSection = () => {
       } else {
         json = await response.json();
         console.log(json);
-        // Format Div Error Element with Bootstrap.   
+        // Format Div Error Element with Bootstrap   
         alert("Call to OpenAI has failed");
       }
     } catch (error) {
